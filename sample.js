@@ -1,9 +1,14 @@
 var fbElement= document.getElementById('fb_icon');
 var instaElement= document.getElementById('insta_icon');
+var linkdnElement= document.getElementById('linkdn_icon');
+
 var downloadResume= document.getElementById('download-resume');
-fbElement.addEventListener('click', event => {
+linkdnElement.addEventListener('click', event => {
 				myFunction(event)
 		});
+fbElement.addEventListener('click', event => {
+	myFunction(event)
+});
 downloadResume.addEventListener('click', event => {
 	downlodResume(event)
 });
@@ -17,8 +22,8 @@ function myFunction(event) {
 		window.open('https://www.facebook.com/abheethy', '_blank');
 	}else if(id === 'insta_icon'){
 		window.open('https://www.instagram.com/abheethy/', '_blank');
-	}else{
-		
+	}else if(id === 'linkdn_icon'){
+		window.open('https://www.linkedin.com/in/abhijithajithkumar/', '_blank')
 	}
 }
 function downlodResume(e){
