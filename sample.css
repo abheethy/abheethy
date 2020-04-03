@@ -1839,3 +1839,27 @@ img {vertical-align: middle;}
 .abheethy-round-xxlarge {
     border-radius: 32px
 }
+
+.knowledge-list {
+    float: left;
+    color: #000;
+    text-align: center;
+    margin: 5px;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    background-color: #9e9e9e;
+    border-radius: 70px;
+}
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.button_resume{
+	border-radius: 50px;
+    float: right;
+}
+.map {
+      height: 400px;
+      width: 100%;
+    }
