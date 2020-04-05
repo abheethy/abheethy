@@ -388,8 +388,10 @@ a {
 .abheethy-input {
 	padding: 8px;
 	display: block;
+	background: transparent !important;
 	border: none;
-	border-bottom: 1px solid #ccc;
+    color: grey;
+    border-bottom: 2px solid #9e9e9e;
 	width: 100%
 }
 
@@ -1469,7 +1471,7 @@ to {
 .abheethy-light-grey, .abheethy-hover-light-grey:hover, .abheethy-light-gray,
 	.abheethy-hover-light-gray:hover {
 	color: #000 !important;
-	background-color: #9E9E9E !important;
+	background-color: #fff !important;
 }
 
 .abheethy-dark-grey, .abheethy-hover-dark-grey:hover, .abheethy-dark-gray,
@@ -1863,3 +1865,65 @@ img {vertical-align: middle;}
       height: 400px;
       width: 100%;
     }
+.copyright-font{
+	font-size:16px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+::placeholder {
+  opacity: 0.3;
+}
+
+input:-webkit-autofill {
+    background-color: #FAFFBD !important;
+}
+
+.progressone {
+    background-color: #e4c465;
+    animation: progressBarOne 2s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+@keyframes progressBarOne {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+
+.progresstwo {
+    background-color: #e4c465;
+    animation: progressBarTwo 2s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+@keyframes progressBarTwo {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+
+.progressthree {
+    background-color: #e4c465;
+    animation: progressBarThree 2s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+@keyframes progressBarThree {
+  0% { width: 0; }
+  100% { width: 75%; }
+}
+
+.progressfour {
+    background-color: #e4c465;
+    animation: progressBarFour 2s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+@keyframes progressBarFour {
+  0% { width: 0; }
+  100% { width: 75%; }
+}
