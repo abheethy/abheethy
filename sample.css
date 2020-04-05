@@ -1471,7 +1471,7 @@ to {
 .abheethy-light-grey, .abheethy-hover-light-grey:hover, .abheethy-light-gray,
 	.abheethy-hover-light-gray:hover {
 	color: #000 !important;
-	background-color: #fff !important;
+	background-color: #bfb4b4 !important;
 }
 
 .abheethy-dark-grey, .abheethy-hover-dark-grey:hover, .abheethy-dark-gray,
@@ -1877,7 +1877,8 @@ button:focus {
 }
 
 ::placeholder {
-  opacity: 0.3;
+  opacity: 0.5;
+  color: #fff;
 }
 
 input:-webkit-autofill {
